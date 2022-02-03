@@ -91,7 +91,7 @@ resource "google_gke_hub_feature_membership" "feature_member" {
       git {
         sync_repo   = "https://source.developers.google.com/p/${var.project_id}/r/gke-poc-config-sync"
         policy_dir  = "/"
-        sync_branch = "main"
+        sync_branch = "master"
         secret_type = "gcpserviceaccount"
         gcp_service_account_email = local.acm_service_account_email
       }
