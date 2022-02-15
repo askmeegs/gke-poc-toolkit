@@ -14,6 +14,16 @@ The GKE Proof of Concept (PoC) Toolkit is a demo generator for [Google Kubernete
 1. **[Create a Google Cloud Project](https://cloud.google.com/resource-manager/docs/creating-managing-projects)** and connect it to an existing Billing account.
 2. **Open a bash-compatible shell** (eg. [Google Cloud Shell](https://cloud.google.com/shell)) and ensure you have the following tools installed: 
 
+<<<<<<< HEAD
+=======
+If you are using a Shared VPC, you will need a separate host project for the Shared VPC. 
+
+#### Tools   
+
+You'll need the following tools installed in order to deploy the toolkit. 
+* bash or bash compatible shell
+* [Terraform >= 0.13](https://www.terraform.io/downloads.html)
+>>>>>>> nick/multi-cluster-networking
 * [Google Cloud SDK version >= 325.0.0](https://cloud.google.com/sdk/docs/downloads-versioned-archives)
 * * [Terraform >= 0.13](https://www.terraform.io/downloads.html)
 * [kubectl](https://kubernetes.io/docs/tasks/tools/) ( >= v1.20)
